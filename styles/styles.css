@@ -8,6 +8,10 @@ body {
 
 main {
     padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
 }
 
 header {
@@ -29,7 +33,26 @@ h1 {
     font-weight: bold;
 }
 
+.intro {
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    background-color: #A2D7D2;
+}
+
 footer {
     background-color: #FAF0EA;
     padding: 10px;
+}
+
+
+.animal-image {
+    cursor: pointer;
+}
+
+
+.animal1 {
+    width: 500px;
+    height: 400px;
 }
